@@ -1,6 +1,6 @@
 pipeline {
  environment {
-    registry = "woualabs07/Jenkins-sonar-docker"
+    registry = "woualabs07/jenkins-sonar-docker"
     registryCredential = 'Swetha07!'
     dockerImage = ''
   }
