@@ -16,9 +16,7 @@ public class Add {
         }
         return c;
     }
-    public void display(String content){
-System.out.println(content);
-}
+
 }
 //sdwe
 
