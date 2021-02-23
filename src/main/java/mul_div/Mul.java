@@ -9,8 +9,6 @@ public class Mul {
 
         return a*b;
     }
-    public void display(String content){
-System.out.println(content);
-}
+
 
 }
