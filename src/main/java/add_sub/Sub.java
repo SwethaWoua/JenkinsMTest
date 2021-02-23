@@ -13,7 +13,5 @@ public class Sub {
 
         return round(a-b);
     }
-    public void display(String content){
-System.out.println(content);
-}
+
 }
