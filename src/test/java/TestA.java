@@ -14,8 +14,8 @@ public class TestA {
     @DisplayName("Add two integers")
     public void intAdd() {
         String value = null;
-        if(value.equals("VAL")){
-        }
+//        if(value.equals("VAL")){
+//        }
         assertEquals(12,a1.add1(4,8),"Test Passed");
         assertEquals(2,a1.add3(1,1),"msg");
         assertEquals(3,a1.add3(2,1),"msg");
