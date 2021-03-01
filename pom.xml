@@ -27,7 +27,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
-  <build>
+    <build>
         <plugins>
             <plugin>
                 <!-- Build an executable JAR -->
@@ -39,7 +39,8 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-                            <mainClass>org.example.MyClass</mainClass>
+<!--                            <mainClass>org.example.MyClass</mainClass>-->
+                            <mainClass>src/test/java/TestA.java</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
@@ -47,5 +48,6 @@
         </plugins>
         <finalName>jenkins-sonar-docker</finalName>
     </build>
+
 
 </project>
