@@ -39,7 +39,6 @@
                         <manifest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib/</classpathPrefix>
-<!--                            <mainClass>org.example.MyClass</mainClass>-->
                             <mainClass>src/test/java/TestA.java</mainClass>
                         </manifest>
                     </archive>
